@@ -161,6 +161,9 @@ header.masthead .header-content {
   max-width: 500px;
   margin-bottom: 100px;
   text-align: center;
+  border-radius: 25px;
+  background:rgba(0, 0, 0, 0.5);
+  padding: 3%;
 }
 
 header.masthead .header-content h1 {
@@ -427,6 +430,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
+  white-space: nowrap;
+  word-break: break-all;
 }
 
 .btn-xl {
